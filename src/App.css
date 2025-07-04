@@ -1,0 +1,44 @@
+div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#myForm{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid blue;
+}
+#surename{
+    border-top: none;
+}
+#age{
+    border-top: none;
+}
+#email{
+    border-top: none;
+}
+#name{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+button{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+    border: 2px solid blue;
+    border-top: none;
+    color: blue;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+    transition: .5s;
+}
+button:active{
+    background-color: rgb(75, 75, 232);
+}
